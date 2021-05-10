@@ -1,0 +1,222 @@
+header, #contenedor {
+    width: 100%;
+    text-align: center;
+}
+
+.img {
+    max-width:100%;
+    width:1775px;
+   } 
+
+.img-blueNwhite {
+    max-width:100%;
+    width:675px;
+    resize: vertical;
+
+   } 
+.img-fotos {
+    max-width:100%;
+    width: 1575px;
+    /*height:120vh;*/
+
+   } 
+
+* {
+    box-sizing: border-box;
+}
+
+/* Font Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+
+
+
+/* Input boxes Register*/
+.form input {
+    min-width: 40vw;
+    display: block;
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: #ece7e7;
+    font-size: 1.5vw;
+    top: 60vw;
+    border: none;
+    outline: none;
+    /*font-size: 22px;*/
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+}
+
+.form input:focus {
+    box-shadow: 5px 5px 15px #a8a8a8;
+}
+
+/* Yellow Button */
+.form .btn {
+    /*
+    position: absolute;
+    top: 2vh;
+    margin: 70vw;
+    */
+    margin: auto;
+    padding: 10px 35px;
+    background-color: #FCB306;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+}
+
+.form .btn:hover {
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 50vw;
+    font-size: 35px;
+}
+
+.left-section .form {
+    float: left;
+    margin: 35vh auto;
+}
+
+.right-section .form {
+    float: right;
+    right: 0;
+    margin: 30vh auto;
+}
+
+.cover .switch-btn {
+    position: absolute;
+    top: 65vw;
+    font-size: 25px;
+    margin: 40vh auto;
+    padding: 10px 55px;
+    background-color: #FCB306;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+}
+
+.cover .switch-btn:hover {
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+.left-section .cover {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Bloque Azul Izquierdo*/
+.left-section .cover img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.left-section .cover h1 {
+    position: absolute;
+    top: 2vh;
+    
+    margin: 60vw ;
+    color: #fff;
+    font-size: 3vw;
+}
+
+.bottom {
+    background-color: #24c2c2;
+    text-align: center;
+
+}
+
+.left-section .cover h3 {
+    position: absolute;
+    top: 2vh;
+    margin: 70vw ;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+.left-section .cover-hide {
+    visibility: hidden;
+}
+
+.left-section .form-hide {
+    visibility: hidden;
+}
+
+/* Bloque Azul Derecho*/
+.right-section .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section .cover img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.right-section .cover h1 {
+    position: absolute;
+    top: 2vh;
+    
+    
+    margin: 60vw ;
+    color: #fff;
+    font-size: 3vw;
+}
+
+.right-section .cover h3 {
+    position: absolute;
+    top: 2vh;
+    margin: 70vw ;
+    color: #fff;
+    font-size: 2vw;
+}
+
+.right-section .cover-hide {
+    visibility: hidden;
+}
+
+.right-section .form-hide {
+    visibility: hidden;
+}
+
+.fade-in-element {
+    animation-name: fade-in-element;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-element {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+}
